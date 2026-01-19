@@ -420,8 +420,8 @@ namespace Celeste.Mod.ConsistencyTracker.Utility {
                 try {
                     path.MakeFgrChanges();
                 } catch (InvalidOperationException) {
-                    Mod.Log($"Stopping FGR creation due to unset ChapterSID in path for UID {uid}.");
-                    ConsolePrint($"Path for UID '{uid}' does not have a ChapterSID set. Please enter the map once for CCT to fix this automatically.");
+                    Mod.Log($"Stopping FGR creation due to unset ChapterUID in path for UID {uid}.");
+                    ConsolePrint($"Path for UID '{uid}' does not have a ChapterUID set. Please enter the map once for CCT to fix this automatically.");
                     return;
                 }
                 
