@@ -719,6 +719,8 @@ CCT_STAT_BASIC_INFO_EXPLANATIONS_CHAPTER_ROOM_COUNT= Count of rooms in the chapt
 
 CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_NAME= Name of the current checkpoint
 CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_ABBREVIATION= Abbreviation of the current checkpoint's name
+CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_NUMBER= Number of the current checkpoint in the chapter
+CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_COUNT= Count of checkpoints in the chapter
 CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_GOLDEN_DEATHS= Golden Deaths in the current checkpoint
 CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_GOLDEN_DEATHS_SESSION= Golden Deaths in the current checkpoint in the current session
 CCT_STAT_BASIC_INFO_EXPLANATIONS_CHECKPOINT_GOLDEN_CHANCE= Golden Chance of the current checkpoint
