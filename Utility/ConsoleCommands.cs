@@ -492,6 +492,16 @@ namespace Celeste.Mod.ConsistencyTracker.Utility {
             ConsolePrint($"The list has also been copied to your clipboard.");
             TextInput.SetClipboardText(string.Join("\n", uids));
         }
+        
+        [Command("cct-group-rooms", "Groups the current and previous room. Shorthand for the respective Mod Option.")]
+        public static void CctGroupRooms() {
+            ConsistencyTrackerModule.Instance.GroupRoomsOnChapterPath();
+        }
+        
+        [Command("cct-ungroup-rooms", "Ungroups the current and previous room. Shorthand for the respective Mod Option.")]
+        public static void CctUngroupRooms() {
+            ConsistencyTrackerModule.Instance.UngroupRoomsOnChapterPath();
+        }
 
         private static string[] GetAllChapterUidsInCampaign() {
             if (SaveData.Instance.CurrentSession == null) {
