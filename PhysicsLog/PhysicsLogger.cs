@@ -31,7 +31,6 @@ namespace Celeste.Mod.ConsistencyTracker.PhysicsLog
             "CrystalStaticSpinner",
             "DustStaticSpinner",
             "CustomSpinner",
-            "DustTrackSpinner", "DustRotateSpinner",
         };
         private static readonly List<string> EntityNamesHitboxColliders = new List<string>() {
             "Spikes", "RainbowSpikes", "BouncySpikes",
